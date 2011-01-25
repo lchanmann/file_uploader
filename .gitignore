@@ -1,0 +1,12 @@
+app/*
+config/*
+db/*
+doc/*
+log/*
+public/*
+Rakefile
+script/*
+test/*
+tmp/*
+vendor/*
+*.swp
