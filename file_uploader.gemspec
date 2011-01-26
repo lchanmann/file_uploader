@@ -1,19 +1,23 @@
 Gem::Specification.new do |s|
-  s.name = %q{file_uploader}
-  s.version = "0.1"
+  s.name = "file_uploader"
+  s.version = "0.1.0"
 
-  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["InSTEDD"]
+#  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.date = %q{2011-01-25}
-  s.description = %q{Simple file uploader for web-based application.}
-  s.email = %q{chanmannlim@gmail.com}
-  s.homepage = %q{https://github.com/lchanmann/file_uploader}
+  
+  s.authors = ["InSTEDD"]
+  s.email = "chanmannlim@gmail.com"
+  s.homepage = "https://github.com/lchanmann/file_uploader"
+  s.summary = "Simple file uploader"
+  s.description = "Focus more on your domain not file upload. Let file_uploader do it."
+  
   s.require_paths = ["lib"]
   s.files = [
     "lib/file_uploader.rb"
   ]
+  
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{Simple file uploader for web-based application.}
+  
 
 #  if s.respond_to? :specification_version then
 #    current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
