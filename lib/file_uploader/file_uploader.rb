@@ -13,7 +13,7 @@ class FileUploader
     end
     
     def mkdir(dir)
-      Dir.mkdir dir unless File.directory?(dir)
+      FileUtils.mkpath dir unless File.directory?(dir)
     end
   end
 
