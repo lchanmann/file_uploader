@@ -1,6 +1,6 @@
 = File Uploader
 
-Focus more on your domain not file upload. Let [file_uploader] do it.
+Focus more on your domain not file upload. Let file_uploader do it.
 
 == Installation
 
