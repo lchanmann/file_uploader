@@ -24,7 +24,14 @@ class FileUploader
 
   protected
   def save_stream(stream)
-    FileStream.write(stream, @dir)
+    if stream.is_a? Hash
+      return write_stream(stream[:tempfile], stream[:filename])
+    end
+    write_stream(stream, stream.original_filename) if stream.respond_to? :original_filename
+  end
+  
+  def write_stream(stream, filename)
+    FileStream.write(stream, @dir, filename)
   end
 
 end

@@ -7,8 +7,8 @@ class FileStream
   end
   
   class << self
-    def write(stream, dir)
-      file = FileMaker.create_file(dir, stream.original_filename)
+    def write(stream, dir, filename)
+      file = FileMaker.create_file(dir, filename)
       file_stream = FileStream.new(file)
       file_stream.write stream and file_stream.close
       file.path
