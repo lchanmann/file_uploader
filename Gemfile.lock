@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    file_uploader (0.1.1)
+    file_uploader (0.2.0)
 
 GEM
   remote: http://rubygems.org/

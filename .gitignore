@@ -1,4 +1,5 @@
 pkg/*
+file_uploader-*.gem
 app/*
 config/*
 db/*

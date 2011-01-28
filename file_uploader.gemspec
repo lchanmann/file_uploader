@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
   s.name              = "file_uploader"
-  s.version           = "0.1.1"
+  s.version           = "0.2.0"
 #  s.platform          = Gem::Platform::RUBY
 
 #  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.date              = %q{2011-01-26}
+  s.date              = %q{2011-01-28}
   
   s.authors           = ["InSTEDD"]
   s.email             = "chanmannlim@gmail.com"
